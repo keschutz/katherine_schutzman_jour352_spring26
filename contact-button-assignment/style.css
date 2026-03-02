@@ -1,0 +1,43 @@
+/*
+MY COLOR PALETTE
+Ink Black - #0D1821
+Petal Frost - #FDD8DD
+Rosewood - #A04668
+Slate Grey - #6A7B8A
+Cool Steel - #91ADC2
+*/
+
+body {
+    background-color: #FDD8DD;
+    text-align: center
+    
+}
+
+button {background-color: #0D1821;
+    color: #FDD8DD;
+    font-family: "Mulish", sans-serif;
+    letter-spacing: .8px;
+    width: 150px;  
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+   }
+
+button:hover {
+    background-color: #A04668;
+}
+
+h1 {
+    font-family: "Mulish", sans-serif;
+    color:#0D1821;
+}
+
+h2 { font-family: "Mulish", sans-serif;
+    color: #6A7B8A;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
