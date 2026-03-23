@@ -8,22 +8,45 @@ Petal Frost - #FAD3E5
 Ivory - #FFFDF1
 */
 
+
+@media screen {
+
+.nav {background-color: #BE628E;
+    color:ivory;
+    font-family: "Lora", serif;
+    padding: 5px;
+}
+
+.nav a{color:ivory;
+    text-decoration: none;
+}
+
+.nav a:hover{font-weight: bold;}
+
+    .navigation {background-color: #BE628E;}
+    
 #topper {
     background-image: url(100_0268.jpeg);
     background-size: cover;
-    background-position: 10% 40%;
+    background-position: 10% 35%;
 }
 
 h1 {
     font-family: "Fraunces", serif;
     font-weight: 700;
     color: ivory;
+    font-size: 30px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 h2 {
     font-family: "Lora", serif;
     font-weight: 200;
     color: ivory;
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 20px;
 }
 
 button {
@@ -34,4 +57,34 @@ button {
     border-radius: 20px;
     color: #2B2118;
     margin-bottom: 90px;
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 15px
+}
+
+h3 {font-family: "Fraunces", serif;
+   }
+
+h6 {font-family: "Lora", serif;}
+
+#description {font-family: "Lora", serif;}
+
+}
+
+
+@media (min-width:576px) {
+    h1 {font-size: 50px}
+    h2 {font-size: 30px}
+    button {margin-bottom: 160px;
+        font-size: 18px}
+    .nav {font-size: 20px}
+  }
+
+@media (min-width:768px) {
+    h1 {font-size: 70px}
+    h2 {font-size: 43px}
+    button {margin-bottom: 200px;
+        font-size: 20px}
+    #topper {background-position: 10% 45%}
+    .nav {font-size: 22px}
 }
