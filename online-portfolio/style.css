@@ -1,0 +1,37 @@
+/*
+MY COLOR PALETTE
+Dark Coffee - #2B2118
+Ash Brown - #635140
+Fuchsia Plum - #BE628E
+Baby Pink - #FFA1CB
+Petal Frost - #FAD3E5
+Ivory - #FFFDF1
+*/
+
+#topper {
+    background-image: url(100_0268.jpeg);
+    background-size: cover;
+    background-position: 10% 40%;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    color: ivory;
+}
+
+h2 {
+    font-family: "Lora", serif;
+    font-weight: 200;
+    color: ivory;
+}
+
+button {
+    font-family: "Lora", serif;
+    background-color: #FFA1CB;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: #2B2118;
+    margin-bottom: 90px;
+}
