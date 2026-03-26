@@ -8,122 +8,202 @@ Petal Frost - #FAD3E5
 Ivory - #FFFDF1
 */
 
-
 @media screen {
-
-.nav {background-color: #BE628E;
-    color:ivory;
-    font-family: "Lora", serif;
-    padding: 5px;
-}
-
-.nav a{color:ivory;
-    text-decoration: none;
-}
-
-.nav a:hover{font-weight: bold;}
-
-    .navigation {background-color: #BE628E;}
-    
-#topper {
-    background-image: url(100_0268.jpeg);
-    background-size: cover;
-    background-position: 10% 15000%;
-}
-    
- #body {background-color: ivory}
-
-.thick-border {color: #FAD3E5;
-    border: solid;
-    }
-    
-.thin-border {color: #635140}
-
-
-h1 {
-    font-family: "Fraunces", serif;
-    font-weight: 700;
-    color: ivory;
-    font-size: 40px;
-    margin-left:10px;
-    margin-right:10px;
-}
-
-h2 {
-    font-family: "Lora", serif;
-    font-weight: 200;
-    color: ivory;
-    margin-left:10px;
-    margin-right:10px;
-    font-size: 25px;
-}
-
-button {
-    font-family: "Lora", serif;
-    background-color: #FFA1CB;
-    border: none;
-    padding: 15px;
-    border-radius: 40px;
-    color: #2B2118;
-    margin-bottom: 120px;
-    margin-left:10px;
-    margin-right:10px;
-    font-size: 15px
-}
-
-h3 {font-family: "Fraunces", serif;
-   }
-
-h6 {font-family: "Lora", serif;
+    .nav {
+        background-color: #be628e;
+        color: ivory;
+        font-family: "Lora", serif;
+        padding: 5px;
     }
 
-.description {font-family: "Lora", serif;
-    font-size: 14px;}
+    .nav a {
+        color: ivory;
+        text-decoration: none;
+    }
 
-.little {font-size: 16px}
-    
-.head {font-size: 24px}
-    
-p {font-family: "Lora", serif;}
-    
+    .nav a:hover {
+        font-weight: bold;
+    }
 
+    .navigation {
+        background-color: #be628e;
+    }
 
-@media (min-width:576px) {
-    h1 {font-size: 50px}
-    h2 {font-size: 30px}
-    button {margin-bottom: 160px;
-        font-size: 18px}
-    .nav {font-size: 18px; padding: 10px}
-    .little {font-size: 18px}
-    .head {font-size: 28px}
-    .description {font-size: 16px}
-    button {padding: 20px}
-     #topper {background-position: 10% 60%}
-  }
+    #topper {
+        background-image: url(100_0268.jpeg);
+        background-size: cover;
+        background-position: 10% 15000%;
+    }
 
-@media (min-width:768px) {
-    h1 {font-size: 70px}
-    h2 {font-size: 43px}
-    button {margin-bottom: 200px;
-        font-size: 20px}
-    #topper {background-position: 10% 45%}
-    .nav {font-size: 21px; padding: 12px}
-     .little {font-size: 20px}
-    .head {font-size: 32px}
-    .description {font-size: 17px}
-    button {padding: 25px; border-radius: 50px;}
+    #body {
+        background-color: ivory;
+    }
+
+    .thick-border {
+        color: #fad3e5;
+        border: solid;
+    }
+
+    .thin-border {
+        color: #635140;
+    }
+
+    h1 {
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        color: ivory;
+        font-size: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h2 {
+        font-family: "Lora", serif;
+        font-weight: 200;
+        color: ivory;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+    }
+
+    button {
+        font-family: "Lora", serif;
+        background-color: #ffa1cb;
+        border: none;
+        padding: 15px;
+        border-radius: 40px;
+        color: #2b2118;
+        margin-bottom: 120px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+
+    h3 {
+        font-family: "Fraunces", serif;
+    }
+
+    h6 {
+        font-family: "Lora", serif;
+    }
+
+    .pink {
+        color: #be628e;
+    }
+
+    .description {
+        font-family: "Lora", serif;
+        font-size: 14px;
+    }
+
+    .little {
+        font-size: 16px;
+    }
+
+    .head {
+        font-size: 24px;
+    }
+
+    p {
+        font-family: "Lora", serif;
+    }
 }
-    
-@media (min-width:970px) {
-    h1 {font-size: 90px}
-    h2 {font-size: 55px}
-    button {margin-bottom: 340px;
-        margin-top:10px;
-        font-size: 33px;}
-    #topper {background-position: 10% 55%}
-    .nav {font-size: 25px; padding: 16px}
-     .little {font-size: 23px}
-    .head {font-size: 36px}
-    .description {font-size: 19px}
-    button {padding: 30px; border-radius: 60px;}
-    }}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    button {
+        margin-bottom: 160px;
+        font-size: 18px;
+    }
+    .nav {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .little {
+        font-size: 18px;
+    }
+    .head {
+        font-size: 28px;
+    }
+    .description {
+        font-size: 16px;
+    }
+    button {
+        padding: 20px;
+    }
+    #topper {
+        background-position: 10% 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 43px;
+    }
+    button {
+        margin-bottom: 200px;
+        font-size: 20px;
+    }
+    #topper {
+        background-position: 10% 45%;
+    }
+    .nav {
+        font-size: 21px;
+        padding: 12px;
+    }
+    .little {
+        font-size: 20px;
+    }
+    .head {
+        font-size: 32px;
+    }
+    .description {
+        font-size: 17px;
+    }
+    button {
+        padding: 25px;
+        border-radius: 50px;
+    }
+}
+
+@media (min-width: 970px) {
+    h1 {
+        font-size: 90px;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    button {
+        margin-bottom: 340px;
+        margin-top: 10px;
+        font-size: 33px;
+    }
+    #topper {
+        background-position: 10% 55%;
+    }
+    .nav {
+        font-size: 25px;
+        padding: 16px;
+    }
+    .little {
+        font-size: 23px;
+    }
+    .head {
+        font-size: 36px;
+    }
+    .description {
+        font-size: 19px;
+    }
+    button {
+        padding: 30px;
+        border-radius: 60px;
+    }
+}
