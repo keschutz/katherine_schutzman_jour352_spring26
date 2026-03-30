@@ -1,0 +1,43 @@
+@media screen {
+    #headshot {
+        width: 300px;
+        margin-bottom: 20px;
+        float: none;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    a {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    #info {
+        size: 500px;
+        margin: auto;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        background-color: aqua;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    #headshot {
+        width: 300px;
+        margin-bottom: 20px;
+        float: left;
+        margin-right: 10px;
+    }
+}
