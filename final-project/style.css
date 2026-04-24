@@ -1,0 +1,13 @@
+/*
+MY COLOR PALETTE
+#ffedf0
+#b83c4f
+#dc8587
+*/
+
+#cover {width: 100%;
+object-fit: cover}
+
+body {background-color: #ffedf0;}
+
+.movie {width: 300px}
