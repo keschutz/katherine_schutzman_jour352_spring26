@@ -5,9 +5,50 @@ MY COLOR PALETTE
 #dc8587
 */
 
-#cover {width: 100%;
-object-fit: cover}
+#cover {
+    width: 100%;
+    object-fit: cover;
+}
 
-body {background-color: #ffedf0;}
+body {
+    background-color: #ffedf0;
+}
 
-.movie {width: 300px}
+.movie {
+    width: 300px;
+}
+
+.story {
+    color: #b83c4f;
+    font-family: "Lora", serif;
+}
+
+.authors {
+    color: #dc8587;
+    font-family: "Lora", serif;
+}
+
+.titles {
+    color: #b83c4f;
+    font-family: "Fraunces", serif;
+}
+
+.title {
+    color: #b83c4f;
+    font-family: "Fraunces", serif;
+}
+
+.subtitle {
+    color: #dc8587;
+    font-family: "Lora", serif;
+}
+
+.author {
+    color: #b83c4f;
+    font-family: "Fraunces", serif;
+}
+
+.date {
+    color: #dc8587;
+    font-family: "Lora", serif;
+}
