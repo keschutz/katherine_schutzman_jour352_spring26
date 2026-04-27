@@ -18,28 +18,37 @@ MY COLOR PALETTE
     .movie {
         width: 300px;
         margin-bottom: 20px;
+        margin-top: 20px;
+        float: center;
     }
+    
+    .movie2 {background-color: #dc8587;
+    margin-bottom: 15px}
 
     .story {
         color: #b83c4f;
         font-family: "Lora", serif;
         font-size: 14px;
-        margin-left: 30px;
-        margin-right: 30px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
     }
 
     .authors {
         color: #dc8587;
         font-family: "Lora", serif;
-        margin-left: 30px;
+        text-align: center;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 10px;
     }
 
     .titles {
         color: #b83c4f;
         font-family: "Fraunces", serif;
         text-align: center;
-        margin-left: 30px;
-        margin-right: 30px;
+        width: 85%;
+        margin: auto;
         margin-top: 20px;
     }
 
@@ -72,20 +81,25 @@ MY COLOR PALETTE
     #cover {
         margin-bottom: 10px;
     }
-    
+
     .quote {
         text-align: center;
-        margin-left: 30px;
-        margin-right: 30px;
+        width: 80%;
+        margin: auto;
         font-family: "Lora", serif;
         color: #b83c4f;
-        font-size: 20px
+        font-size: 20px;
     }
-    
-    .attribution {text-align: right;
-    font-family: "Lora", serif;
-    color:#dc8587;
-    margin-right: 30px}
+
+    .attribution {
+        font-family: "Lora", serif;
+        color: #dc8587;
+        width: 70%;
+        margin: auto;
+        text-align: right;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 @media (min-width: 576px) {
@@ -99,23 +113,12 @@ MY COLOR PALETTE
 
     .story {
         font-size: 16px;
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    .authors {
-        margin-left: 60px;
-    }
-
-    .titles {
-        margin-left: 60px;
-        margin-right: 60px;
+        width: 60%;
     }
 }
 
 @media (min-width: 768px) {
-
-      .title {
+    .title {
         font-size: 50px;
     }
 
@@ -125,20 +128,8 @@ MY COLOR PALETTE
 
     .story {
         font-size: 18px;
-        margin-left: 80px;
-        margin-right: 80px;
+        width: 60%;
     }
-
-    .authors {
-        margin-left: 80px;
-    }
-
-    .titles {
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-
-
 }
 
 @media (min-width: 992px) {
@@ -152,16 +143,6 @@ MY COLOR PALETTE
 
     .story {
         font-size: 20px;
-        margin-left: 80px;
-        margin-right: 80px;
-    }
-
-    .authors {
-        margin-left: 80px;
-    }
-
-    .titles {
-        margin-left: 80px;
-        margin-right: 80px;
+        width: 55%;
     }
 }
