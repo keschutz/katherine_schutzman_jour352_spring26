@@ -53,7 +53,7 @@ MY COLOR PALETTE
         color: #b83c4f;
         font-family: "Fraunces", serif;
         text-align: center;
-        width: 85%;
+        width: 75%;
         margin: auto;
         margin-top: 20px;
     }
@@ -64,6 +64,8 @@ MY COLOR PALETTE
         font-size: 35px;
         text-align: center;
     }
+    
+    .fullwidth {margin: 0px;}
 
     .subtitle {
         color: #dc8587;
