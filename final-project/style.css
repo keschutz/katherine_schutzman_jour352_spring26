@@ -3,6 +3,7 @@ MY COLOR PALETTE
 #ffedf0
 #b83c4f
 #dc8587
+#df6a6d
 */
 
 @media screen {
@@ -42,7 +43,7 @@ MY COLOR PALETTE
     }
 
     .authors {
-        color: #dc8587;
+        color: #b83c4f;
         font-family: "Lora", serif;
         text-align: center;
         width: 85%;
@@ -72,7 +73,7 @@ MY COLOR PALETTE
     }
 
     .subtitle {
-        color: #dc8587;
+        color: #df6a6d;
         font-family: "Lora", serif;
         text-align: center;
         font-size: 18px;
@@ -86,7 +87,7 @@ MY COLOR PALETTE
     }
 
     .date {
-        color: #dc8587;
+        color: #df6a6d;
         font-family: "Lora", serif;
         text-align: center;
         margin-bottom: 20px;
@@ -107,7 +108,7 @@ MY COLOR PALETTE
 
     .attribution {
         font-family: "Lora", serif;
-        color: #dc8587;
+        color: #df6a6d;
         width: 75%;
         margin: auto;
         text-align: right;
@@ -118,12 +119,13 @@ MY COLOR PALETTE
 
     .attributions {
         font-family: "Lora", serif;
-        color: #dc8587;
+        color: #df6a6d;
         width: 75%;
         margin: auto;
         text-align: right;
         font-size: 14px;
         margin-bottom: 10px;
+        font-weight: bold;
     }
 }
 
